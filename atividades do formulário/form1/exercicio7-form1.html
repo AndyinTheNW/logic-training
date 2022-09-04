@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 numeros
+
+    </title>
+</head>
+<body>
+<script>
+
+
+var valores = [];
+        var i = 0;
+        var maior = 0;
+        while (i < 6) {
+            var n = parseInt(prompt("Digite um número qualquer: "));
+            valores.push(n);
+            i++;
+        }
+    
+
+        
+
+        var soma = 0;
+        for (var i = 0; i < valores.length; i++) {
+            if (valores[i] < 72) {
+                soma += valores[i];
+            }
+        }
+        alert("Os valores digitados foram: " + valores);
+        alert("A soma dos valores abaixo de 72 é: " + soma);
+
+
+
+
+
+
+</script>
+
+
+
+
+
+    
+</body>
+</html>
